@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo cp /home/isucon/private_isu/webapp/deploy/nginx.conf /etc/nginx/nginx.conf
 sudo cp /home/isucon/private_isu/webapp/deploy/my.cnf /etc/mysql/my.cnf
-
+/home/isucon/private_isu/webapp/deploy/restart
