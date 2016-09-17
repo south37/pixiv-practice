@@ -8,3 +8,4 @@ fi
 if [ -e /var/log/nginx/access.log ]; then
     sudo mv /var/log/nginx/access.log /var/log/nginx/access.log.$(date "+%Y%m%d_%H%M%S")
 fi
+/home/isucon/private_isu/webapp/deploy/restart
